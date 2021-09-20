@@ -1,12 +1,12 @@
-# Extendable (Threshold) Ring Signatures
+# (Same-Messa Linkable) Extendable (Threshold) Ring Signatures
 
 This repository contains a fork of the RELIC library implementing extendable (threshold) ring signatures.
 It is meant to be a research prototype for reproducibility, and not for production purposes.
 
 The repository contains:
-- An implementation of the schemes in files `relic/src/cp/relic_cp_ers.c` and `relic/src/cp/relic_cp_etrs.c` (for the threshold version)
+- An implementation of the schemes in files `relic/src/cp/relic_cp_ers.c`, `relic/src/cp/relic_cp_smlers.c` (for the same-message-linkable) and `relic/src/cp/relic_cp_etrs.c` (for the threshold version)
 - Basic tests and benchmarks in the `relic/test/test_cp.c` and `relic/bench/bench_cp.c` programs
-- A demo program to print performance figures from the implementation
+- A demo program to print performance figures from the implementation as JSON files
 
 ## Build Instructions
 
